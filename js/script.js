@@ -50,4 +50,9 @@ btn.onclick = function(event) {
         alert("You have no message to send");
         return false;
     }
+    var person1Input = $("input#contact-name").val();
+    $("span#outputName").append(person1Input);
+
+    $('.toast').toast('show');
+    event.preventDefault();
 }

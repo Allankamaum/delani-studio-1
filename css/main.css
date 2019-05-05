@@ -30,3 +30,14 @@
 .text-section2 {
     font-size: 12px;
 }
+
+.section3 {
+    padding: 85px;
+    background-image: url(../IP3-master/assets/backgrounds/s_image.jpg);
+    background-repeat: no-repeat;
+}
+
+.text-section3 {
+    color: white;
+    font-size: 14px;
+}
